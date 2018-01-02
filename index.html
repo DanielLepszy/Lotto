@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lotto</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    
+    
+    <h1 class='headline'>Twoje wytypowane liczby:</h1>
+   
+<div id="inputs">
+  <label for="input1">1.</label>
+  <input type="text" class="input-default" id="input1" maxlength="2">
+  <label for="input2">2.</label>
+  <input type="text" class="input-default"id="input2" maxlength="2">
+  <label for="input3">3.</label>
+  <input type="text" class="input-default"id="input3" maxlength="2">
+  <label for="input4">4.</label>
+  <input type="text" class="input-default"id="input4" maxlength="2">
+  <label for="input5">5.</label>
+  <input type="text" class="input-default"id="input5" maxlength="2">
+  <label for="input6">6.</label>
+  <input type="text" class="input-default"id="input6" maxlength="2">
+</div>
+<h1 class='headline'>Oto sześć wylosowanych liczb:</h1>
+<div id="inputts">
+  <label for="inputt1">1.</label>
+  <input type="text" class="input-default" id="inputt1" maxlength="2"  disabled="disabled">
+  <label for="inputt2">2.</label>
+  <input type="text" class="input-default"id="inputt2" maxlength="2" disabled="disabled">
+  <label for="inputt3">3.</label>
+  <input type="text" class="input-default"id="inputt3" maxlength="2" disabled="disabled">
+  <label for="inputt4">4.</label>
+  <input type="text" class="input-default"id="inputt4" maxlength="2" disabled="disabled">
+  <label for="inputt5">5.</label>
+  <input type="text" class="input-default"id="inputt5" maxlength="2" disabled="disabled">
+  <label for="inputt6">6.</label>
+  <input type="text" class="input-default"id="inputt6" maxlength="2" disabled="disabled">
+</div>
+<button id="getMoney">Zagraj</button>
+
+<button id="setDigits">Wylosuj liczbe</input>
+<div id="results"></div>
+      
+    
+      
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
